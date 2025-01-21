@@ -30,8 +30,8 @@ android {
         versionName = flutter.versionName
         // Aquí agregas el manifiesto de esquema personalizado
         manifestPlaceholders += [
-                'appAuthRedirectScheme': 'myapp'  // Cambia 'myapp' por tu esquema personalizado
-        ]
+            'appAuthRedirectScheme': 'com.duendesoftware.demo'  // Cambia 'com.duendesoftware.demo' por tu esquema personalizado
+    ]
     }
 
     buildTypes {
